@@ -657,6 +657,13 @@ server <- function(input, output, session) {
       file.copy("source/template.xls",file)
     }
   )
+
+  output$downloadUserGuide <- downloadHandler(
+    filename = "UserGuide.pdf",
+    content = function(file) {
+      file.copy("source/UserGuide.pdf",file)
+    }
+  )
   
   output$download.plots<-downloadHandler(
     file = function() {
