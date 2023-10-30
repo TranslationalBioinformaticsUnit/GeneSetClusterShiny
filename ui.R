@@ -145,8 +145,9 @@ ui <- fluidPage(theme = shinytheme("flatly"),
                               ),
                             ) %>% shinyjs::hidden(),
                   ), # Navbar 1, tabPanel
-                  tabPanel("Video", br(), br(), br(), br(),"Videos page"),
-                  tabPanel("Help",  br(), br(), br(), br(), "Help page"),
+                  #tabPanel("Video", br(), br(), br(), br(),"Videos page"),
+                  tabPanel("Help",  br(), br(), br(), br(), "Please, click here to download the user guide:",
+                           downloadButton("downloadUserGuide", "User guide", style = "font-size: 12px; padding: 6px; background-color: #E4B5BB; border-color: #E4B5BB; color: black;")),
                 ) # navbarPage
 ) # fluidPage
 
