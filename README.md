@@ -1,5 +1,5 @@
 # GeneSetClusterShiny
-Shiny app for GeneSetCluster tool. **Important:** only available for R versions >= 4.1
+R Shiny app for GeneSetCluster tool. **Important:** only available for R versions >= 4.1
 
 ### Install packages
 ```
