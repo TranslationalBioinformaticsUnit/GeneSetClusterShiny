@@ -12,5 +12,5 @@ BiocManager::install("simplifyEnrichment")
 
 ### Run shiny app
 ```
-shiny::runGitHub(repo = "GeneSetClusterShiny", username = "TranslationalBioinformaticsUnit", ref = "main")
+shiny::runGitHub(repo = "GeneSetClusterShiny", username = "TranslationalBioinformaticsUnit", ref = "main", launch.browser = TRUE)
 ```
